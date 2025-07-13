@@ -3,35 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#body {
+  background-color: #555879;
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 450px;
-  background-color: #0c056d;
-  color: white;
+  background-color: #555879;
+  color: black;
   font-family: poppins, sans-serif;
+  font-style: italic;
 }
 #logo {
-  width: 25%;
+  width: 35%;
   height: auto;
   margin-bottom: 30px;
-  border-radius: 70px 0 70px 0;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 nav {
-  background-color: #f25d9c;
-  padding: 10px;
+  background-color: #98a1bc;
+  padding: 50px;
   position: fixed;
+  border-radius: 30px;
+  margin: 50px;
 }
 
 footer {
-  background-color: #590d82;
-  color: white;
+  background-color: #ff7a3c;
+  color: black;
   padding: 30px;
   position: relative;
-  bottom: 0;
-  width: 100%;
+  border-radius: 70px 0 70px 0;
+}
+/* Estilo para pantallas muy grandes */
+@media (min-width: 1440px) {
+  #logo {
+    width: 20%;
+  }
 }
