@@ -77,6 +77,28 @@ nav {
   text-shadow: #070707 2px 2px 4px;
   justify-content: center;
 }
+.cliente-destacado {
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  gap: 20px; /* Espacio entre imagen y texto */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cliente-destacado img {
+  max-width: 150px; /* Tamaño controlado del logo */
+  height: auto;
+}
+
+.texto-cliente p {
+  margin: 0;
+  font-size: 1rem;
+  color: #020202;
+  background-color: #98a1bc;
+  border-radius: 60px 0 70px 0;
+}
+
 footer {
   background-color: #ff7a3c;
   color: black;
@@ -88,5 +110,15 @@ footer {
 @media (min-width: 1440px) {
   #logo {
     width: 20%;
+  }
+}
+@media (max-width: 768px) {
+  .cliente-destacado {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cliente-destacado img {
+    margin-bottom: 10px;
   }
 }
