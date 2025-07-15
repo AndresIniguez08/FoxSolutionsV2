@@ -5,7 +5,7 @@
 }
 #body {
   background-color: #555879;
-  font-family: Arial, sans-serif;
+  font-family: poppins, sans-serif;
   color: black;
   text-align: center;
 }
@@ -20,6 +20,12 @@ main {
   font-family: poppins, sans-serif;
   font-style: italic;
 }
+h2 {
+  color: black;
+  font-family: poppins, sans-serif;
+  font-weight: bolder;
+  text-shadow: #070707 2px 2px 4px;
+}
 #logo {
   width: 35%;
   height: auto;
@@ -32,7 +38,45 @@ nav {
   border-radius: 30px;
   margin: 50px;
 }
+.nav-link {
+  color: black;
+  font-family: poppins, sans-serif;
+  font-weight: strong;
+  font-size: 20px;
+  text-shadow: #070707 2px 2px 4px;
+}
+.navbar-brand {
+  color: black;
+  font-family: poppins, sans-serif;
+  font-weight: strong;
+  font-size: 30px;
+  text-shadow: #070707 2px 2px 4px;
+}
 
+.servicio {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+#servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #98a1bc;
+  border-radius: 15px;
+}
+.black {
+  color: black;
+  font-family: poppins, sans-serif;
+  font-weight: bolder;
+  text-shadow: #070707 2px 2px 4px;
+  justify-content: center;
+}
 footer {
   background-color: #ff7a3c;
   color: black;
